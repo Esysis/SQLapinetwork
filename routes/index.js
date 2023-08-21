@@ -1,10 +1,10 @@
 const router = require('express').Router();
+const apiRoutes = require('./api');
 
-const api = require('./api')
+router.use('/api', apiRoutes);
 
-router.use('/api', api);
 router.use((req, res) => {
-    return res.status(404).send('Error! Not Found!!!');
+    return res.send('Wrong Route');
 });
 
 module.exports = router;
