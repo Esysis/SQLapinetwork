@@ -1,7 +1,7 @@
 // require mongoose and dayjs
 const dayjs = require("dayjs");
 const { Schema, model } = require("mongoose");
-const reactionSchema = require('./Reactions');
+const reactionSchema = require('./react');
 
 // build the schema
 const thoughtSchema = new Schema(

@@ -1,20 +1,32 @@
 {
-    "name": "sqlapinetwork",
-    "version": "1.0.1",
-    "description": "Mongoose back-end project",
+    "name": "social-network-api",
+    "version": "1.0.0",
+    "description": "",
     "main": "server.js",
-    "license": "MIT",
     "scripts": {
-        "start": "node index",
-        "dev": "nodemon index",
-        "seed": "node utils/seed",
-        "heroku-postbuild": "node utils/seed.js"
+        "test": "echo \"Error: no test specified\"",
+        "watch": "nodemon server.js"
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Esysis/SQLapinetwork.git"
+    },
+    "author": "Isaac Rivera",
+    "license": "MIT",
+    "homepage": "https://github.com/Esysis/SQLapinetwork#readme",
     "dependencies": {
-        "express": "^4.17.1",
-        "mongoose": "^7.0.2"
-    },
-    "devDependencies": {
-        "nodemon": "^2.0.9"
+        "api-routes": "^0.1.1",
+        "connect": "3.7.0",
+        "cookie-signature": "1.2.1",
+        "dayjs": "1.11.9",
+        "debug": "4.3.4",
+        "express": "^4.18.2",
+        "fresh": "0.5.2",
+        "mime": "3.0.0",
+        "mongodb": "5.7.0",
+        "mongoose": "7.4.2",
+        "nodemon": "3.0.1",
+        "qs": "6.11.2",
+        "underscore": "1.13.6"
     }
 }
